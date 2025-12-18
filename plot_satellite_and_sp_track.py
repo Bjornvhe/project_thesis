@@ -5,7 +5,8 @@ from pyproj import Transformer
 
 
 # Base directory containing folders named YYYYMMDD
-base_path = '/home/thebear/codes4fun/project_master/triton_gnssr_processing/data/'
+#FILL IN OWN FILE NAME LOCATION
+base_path = ''
 
 # List available folders
 folders = [d for d in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, d)) and d.isdigit()]
