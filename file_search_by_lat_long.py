@@ -43,8 +43,8 @@ def find_file_by_spec_point(target_lat, target_lon, folder_path):
 
 
 if __name__ == "__main__":
-    # Example usage
-    folder_path = '/home/thebear/codes4fun/project_master/triton_gnssr_processing/data/'
+    # FILL INN OWN FILE NAME
+    folder_path = ''
     print("Provide target latitude and longitude to find the corresponding file:")
     target_lat = float(input()) # Example latitude 10.324902
     target_lon = float(input())  # Example longitude 79.753311
