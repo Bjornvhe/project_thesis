@@ -70,7 +70,7 @@ def plot_ddm(ddm, prn, splat, splon, gps_week, gps_sec, flags,
 
     plt.tight_layout()
     plt.savefig(
-        f"/home/thebear/codes4fun/project_master/triton_gnssr_processing/figs/"
+        f""
         f"ddm_prn{prn}_idx{index}.png"
     )
     plt.close()
@@ -162,7 +162,8 @@ def list_nc_files(base_path):
     return full_path
 
 if __name__ == "__main__":
-    file_name = list_nc_files('/home/thebear/codes4fun/project_master/triton_gnssr_processing/data/')
+    #FILL IN OWN FILE NAME LOCATION
+    file_name = list_nc_files('')
     target_lat = float(input("Enter target latitude: "))
     target_lon = float(input("Enter target longitude: "))
     radius_km = float(input("Enter search radius in km (e.g., 50): "))
