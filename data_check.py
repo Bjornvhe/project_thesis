@@ -3,8 +3,8 @@ matplotlib.use('Agg')
 
 import netCDF4 as nc
 import matplotlib.pyplot as plt
-
-filename = '/home/thebear/codes4fun/project_master/triton_gnssr_processing/data/20250107/TRITON_185832_20250107174354_CorDDM_v2.0_nc'
+#insert own filename here
+filename = ''
 
 def plot_ddm(ddm):
     plt.figure(figsize=(8, 6))
