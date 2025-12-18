@@ -11,7 +11,7 @@ def plot_ddm(ddm):
     plt.imshow(ddm, aspect='auto', cmap='viridis')
     plt.colorbar(label='Amplitude [W]')
     plt.tight_layout()
-    plt.savefig(f'/home/thebear/codes4fun/project_master/triton_gnssr_processing/figs/lole')
+    plt.savefig()
     plt.close()
 
 def read_file(filename):
